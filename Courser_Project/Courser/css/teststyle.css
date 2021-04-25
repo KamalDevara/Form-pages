@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+   background-color: #f6f5f2;
+   color: #222456;
+   font-family: 'PT Sans',Arial,"Helvetica Neue",Helvetica,sans-serif;
+   font-size: 17px;
+   font-weight: 400;
+   line-height: 1.625;
+}
+.test{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  max-width: none;
+}
+.row:before , .row:after{
+  content: " ";
+  display: table;
+}
+.row:after{
+  clear: both;
+}
+.tcolumn{
+  width: 25%;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+.pad-15{
+  padding: 15px;
+}
+.pt_info{
+  text-align: center;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  border: 1px solid #c9c9c9;
+  transition: all 0.5s;
+  min-height: 220px;
+  position: relative;
+}
+.pt_info h4{
+  font-size: 17px;
+  margin-top: 10px;
+  color: #1b1b42;
+  line-height: 1.5;
+}
+.pt_info p{
+  margin-bottom: 2px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.pt_info p b{
+  padding-left: 5px;
+  font-weight: 600;
+  font-family: 'OpenSans-Semibold';
+}
+.pt_info button.btn {
+   margin-top: 25px;
+   margin-bottom: 0px;
+   border: 1px solid #1b1b42;
+   padding: 8px 20px;
+   color: #000;
+   font-size: 14px;
+   font-weight: 'OpenSans-Semibold' !important;
+   display:inline-block;
+   position: absolute;
+    bottom:15px;
+    left:0px;
+    right:0px;
+    margin:0px auto;
+    transition: all 0.3s;
+    border-radius: 0px;
+    width:105px;
+}
+.pt_info button.btn:focus ,
+.pt_info button.btn:active,
+.pt_info button.btn:visited{
+   border: 0px;
+   box-shadow: none;
+ }
+ .pt_info button.btn:before{
+   position: absolute;
+   content: '';
+   width: 0;
+   height: 100%;
+   background: #1b1b42;
+   top: 0px;
+   left: 50%;
+   z-index: -1;
+   color: #fff;
+   transition: all 0.3s;
+ }
+ .pt_info button.btn:hover:before{
+   width: 100%;
+   left: 0px;
+ }
+.pt_info button.btn:hover{
+  color: #fff;
+  background: #1b1b42;
+  outline: none;
+}
+.pt_info:hover{
+  box-shadow: 0px 5px 5px #aaa;
+  }
+ /* Feedback page */
+.wrapper{
+margin-top: -30px;
+}
+.site-header h1{
+  color: #00BFFF;
+  letter-spacing: 2px;
+  font-size: 42px;
+  font-family: serif;
+  text-shadow: -1px 0 black, 0 1px white, 1px 0 black, 0 -1px white;
+}
+.form-wrapper{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.site-page h3{
+  color: black;
+}
+.radio input[type=radio], .radio-inline input[type=radio] {
+  position: relative;
+}
+.list-form{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+ol li{
+  margin-top: 18px;
+}
+label{
+  color: gray;
+}
+ol li h4{
+color: black;
+font-size: 20px;
+}
+ol[type="1"]{
+  font-size: 20px;
+}
+.form-control{
+  height: auto;
+  width: 50%;
+  background-color: white;
+  border-radius: 10;
+  border-width: 1px;
+}
+textarea[placeholder]{
+  font-size: 18px;
+}
+.list-form button{
+   margin-top:20px;
+   margin-left: 20%;
+}
+.list-form .btn{
+  position: relative;
+  background-color: blue;
+  color: white;
+  outline: none;
+  width: 13%;
+  font-size: 20px;
+  text-align: center;
+  padding: 7px;
+  border: 1px solid #000;
+  border-radius: 0px;
+}
+.btn:hover{
+  color: white;
+  background-color:#1b1b42;
+  outline: none;
+}
+.error{
+	margin-top: 8px;
+	margin-bottom: 10px;
+  margin-left: -10px;
+	padding-left: 11px;
+	color: #C12929;
+	font-size: 17px;
+	font-weight: 400;
+}
+/*profile.php*/
+.site-header1 h1{
+  color: #00BFFF;
+  letter-spacing: 3px;
+  font-size: 42px;
+  font-family: serif;
+  text-shadow: -1px 0 black, 0 1px white, 1px 0 black, 0 -1px white;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+ .pf_info{
+   padding: 10px 15px;
+ }
+ .pf_info h4{
+   color: black;
+   font-size: 14px;
+   font-family: 'OpenSans-Semibold' !important;
+ }
+ .pf_info p{
+   font-size: 12px;
+ }
+}
+@media (max-width: 768px) {
+   .test{
+     width: 100%;
+   }
+   .row .tcolumn{
+     width: 50%;
+     margin-bottom: -10px;
+   }
+   .pf_info{
+     box-shadow: 0 2px 4px #999;
+     min-height: 1px;
+   }
+   .pt_info button.btn{
+     position:relative;
+     bottom:0px;
+     margin-top:14px;
+   }
+   .pt_info h4{
+     font-size: 18px;
+   }
+   .pt_info p {
+     font-size: 17px;
+   }
+   .form-control{
+     width: 95%;
+   }
+  .list-form .btn{
+    left: 10%;
+    width: 35%
+  }
+.error4{
+  width: 90%;
+}
+}
+@media (max-width: 480px) {
+  .test{
+    width: 100%;
+  }
+  .row .tcolumn{
+    width: 100%;
+  }
+  .list-form{
+    margin-left: -19px;
+  }
+  .list-form .form-control{
+      margin-top:10px;
+  }
+  .list-form .btn{
+    margin-top: 7px;
+    width: 35%;
+    left: 40px;
+  }
+}
+@media (max-width: 410px) {
+ .error4{
+   font-size: 21px;
+ }
+}

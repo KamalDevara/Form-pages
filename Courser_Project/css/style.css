@@ -1,0 +1,363 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body,
+html,
+header,
+.container-fluid{
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-nav {
+  min-height: 40px !important;
+  padding-right: 50px;
+  margin-bottom: 0;
+  border-radius: 0;
+  }
+.navbar-nav > li > a, navbar-brand {
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  height: 40px;
+}
+.navbar-inverse .navbar-brand{
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+.logo{
+  margin-bottom: 10px;
+}
+.butt {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.butt:hover {
+  background-color: green;
+}
+#butt{
+  color: white;
+}
+/* send message button */
+.se{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.se:hover{
+  background-color: green;
+}
+.error{
+	margin-top: -2px;
+	margin-bottom: -20px;
+	padding-left: 13px;
+	color: #C12929;
+	font-size: 17px;
+	font-weight: 400;
+}
+.form-control{
+  width: 160%;
+}
+.error1{
+  margin-top: 19px;
+}
+.error4{
+	width:35%;
+  margin: 1px auto;
+  padding: 1px;
+  border: 1px solid #3c763d;
+  color: #3c763d;
+  background: #dff0d8;
+  border-radius: 10px;
+  text-align: center;
+   padding-top: 3px;
+	margin-bottom: 10px;
+  margin-left: 350px;
+	font-size: 28px;
+	font-weight:400;
+}
+.form-control {
+ margin-top: 30px;
+}
+/* images header */
+.backgroundimg {
+  background: url(../images/banner.jpg) no-repeat center center fixed;
+  background-size: cover;
+  }
+/* header title  index */
+.h1t{
+  padding: 65px;
+  letter-spacing: 2.5px;
+  color: black;
+  /*text-align: center; */
+  font-family: "Times New Roman",serif;
+  font-size: 45px;
+}
+.mi {
+  padding: 65px;
+}
+.an{
+   padding-top: 60px;
+}
+/* About page under want to talk*/
+.inner-wrapper {
+  display:table-cell;
+  vertical-align:middle;
+  Padding: 10px;
+}
+.ab{
+  margin-top: -20px;
+   margin-left: 350px;
+}
+/* h2 */
+.h2t{
+  margin-left: 120px;
+  color: #00FFFF;
+  letter-spacing: 2px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+/* h1ab */
+.h1ab{
+  margin-left: -30px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+/* heading line announcements */
+.h1a{
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-size: 45px;
+}
+.ulan{
+  margin-top: 20px;
+  margin-left: -20px;
+}
+/* announcements */
+.h1n{
+   margin-top: 30px;
+   margin-left: -40px;
+   letter-spacing: 2px;
+   font-family: serif;
+   font-size: 30px;
+   color: red;
+   text-shadow: -1px 0 black, 0 1px white, 1px 0 black, 0 -1px white;
+}
+.p1{
+  margin-left: -10px;
+  letter-spacing: 2px;
+  font-family: serif;
+  font-style: italic;
+  font-size: 27px;
+}
+#join{
+    margin-left: 250px;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+/* model popup setting index */
+.modal{
+  margin-top: 100px;
+  margin-left: 150px;
+  padding: 110px;
+}
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 76%;
+    width: 60%;
+}
+/* .modal-backdrop {
+   background-color:blue;
+ } */
+ .modal-content{
+   background-color: lightblue;
+ }
+.modal-bu{
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 10px;
+}
+.fac{
+  margin: 25px;
+}
+/* sign up */
+.h1m {
+  letter-spacing: 2px;
+  font-family: serif;
+  font-size: 33px;
+  color: black;
+}
+/* button model */
+.butt1:hover {
+  background-color: green;
+}
+.butt2 {
+  color: white;
+  background-color: brown;
+}
+.butt2:hover {
+  color : white;
+  background-color: green;
+}
+/* modal setting end */
+
+@media (max-width: 900px) {
+   body,
+   header{
+     padding-top:15px;
+     margin: 0;
+   }
+   .backgroundimg{
+     width:100%;
+   }
+   #mi,
+   .h1t,
+   .h2t,
+   .h1n,
+   .p1{
+     padding: 10px;
+     margin-left:10px;
+     width: 100%;
+   }
+   .h1ab{
+     margin-left: auto;
+   }
+    #join{
+     padding: 10px;
+     margin: 0;
+     width: 60%;
+    }
+  .ab
+  {
+    margin: 15px;
+    width: 100%;
+  }
+  .se{
+    margin-left: -3px;
+    margin-right: 5px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+   .h1t{
+     margin-top: 30px;
+   }
+   .navbar-nav>li>a{
+     font-size: 17px;
+   }
+   .an{
+     margin-top: -7%;
+   }
+   .p1{
+     margin-top: -28px;
+   }
+   .inner{
+     margin-top: -20px;
+   }
+   #join{
+     margin-left: 50px;
+   }
+  .butt{
+    float: left;
+  }
+ .h1ab{
+  margin-left: -5%;
+  margin-top: 6%;
+  font-size: 39px;
+ }
+ .ab{
+   margin-top: -20px;
+   margin-left: 90%;
+ }
+ .se{
+   margin-top: 20px;
+   margin-left: 30%;
+ }
+}
+@media (max-width: 425px) {
+  .backgroundimg{
+    width: 115%;
+    height: auto;
+  }
+  .p1{
+    margin-left: 26px;
+    margin-top: 0x;
+    padding: 10px 1px;
+  }
+  #join{
+    margin-top: -10px;
+  }
+.an .lead{
+    margin-top: 0px;
+    font-size: 22px;
+  }
+  .an{
+    margin-top: -10%;
+  }
+.h1n{
+  margin-top: -20px;
+}
+.ulan{
+  margin-left: 2px;
+}
+.h1ab{
+  margin-top: 50px;
+}
+.ab{
+  margin-left: 20px;
+}
+.form-control{
+  height: 45px;
+}
+.h1a{
+  margin-top: 30px;
+}
+.p1{
+  margin-top: 10px;
+  margin-left: -2px;
+}
+.butt:hover{
+    width:100%;
+}
+}
+@media (max-width: 389px) {
+  .backgroundimg{
+    width: 115%;
+  }
+  .h1ab{
+    margin-top: 50px;
+    margin-left: 11px;
+    font-size: 35px;
+  }
+  .ab{
+    margin-top: -30px;
+    width: 70%;
+  }
+  .form-control{
+    font-size: 15px;
+  }
+}
+@media (max-width: 330px) and (min-width: 120px){
+  .backgroundimg{
+    width:  120%;
+  }
+  .h1ab{
+    margin-left: 3px;
+  }
+  .ab{
+    margin-left: 10px;
+    width: 70%;
+  }
+
+}
