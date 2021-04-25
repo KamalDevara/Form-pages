@@ -1,0 +1,108 @@
+
+body{
+    background: url(ocean.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+.Container{
+    margin:12% 20%;
+}
+
+.col-6{
+    margin-top: -50px;
+    margin-right: 20px;
+    float: right;
+    background-color: white;
+    //opacity: 0.9;
+    width: 45%;
+    height: 390px;
+}
+.col{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.col-61{
+    margin-top: 50px;
+    background-color: black;
+     color: white;
+    height: 300px;
+}
+.colleft{
+    margin-left: 30px;
+    padding: 20px;
+}
+.col h1{
+    color: red;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+form{
+    margin-top: 40px;
+}
+input{
+    display: block;
+    margin-top: 20px;
+    width: 85%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: 2px solid grey;
+}
+input:hover{
+    border: 0;
+    border-bottom: 2px solid grey;
+}
+.colr{
+    padding-top: 40px;
+}
+.colr a{
+    padding: 5px;
+    font-size: 18px;
+    color: grey;
+}
+.colr button{
+    padding: 10px;
+    float: right;
+    margin-top: -15px;
+    margin-right: 50px;
+    width: 30%;
+    color: white;
+    background-color: red;
+    border-color: red;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.colleft h1{
+    font-family: serif;
+    font-weight: 200;
+    font-size: 36px;
+    color: white;
+}
+.colleft p{
+    font-family: serif,"Times New Roman";
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 20px;
+    width: 50%;
+    letter-spacing: 0.7px;
+}
+.colleft button{
+    padding: 10px;
+    width: 15%;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    border-width: 1.5px;
+    border-radius: 5px;
+}
+.colleft button:hover{
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: crimson;
+    border: 2px solid white;
+}
